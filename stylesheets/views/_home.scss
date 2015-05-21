@@ -1,0 +1,147 @@
+
+@font-face {
+  font-family: PathwayGothicOne-Regular;
+  src: url(../fonts/PathwayGothicOne-Regular.ttf); 
+}
+.navbar-default {
+  background-color: white;
+  margin: 0px;
+  border-bottom-color: gray	;
+}
+.navbar-brand img{
+	width: 12%;
+}
+.navbar-brand{
+	height: 79px;
+
+}
+.fondo{
+	  background-color: rgba(128, 128, 128, 0);
+}
+.navbar-nav > li > a {
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+.background{
+	background-image: url(../icon/palet.png);
+  height: 30%
+}
+.glyphicon {
+	display: block;
+	font-size: 40px;
+	margin: 2px 30px;
+}
+hr {
+  border-color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.men {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: white;
+}
+a {
+  color: gray;
+  text-align: center;
+  font-family: "PathwayGothicOne-Regular";
+  font-size: 18px;
+  }
+
+.nav > li > a{
+	padding: 28px 13px;
+}
+.container-fluid{
+	padding-left: 0px;
+}
+ul.nav.nav-pills.nav-stacked {
+  background-color: white;
+}
+aside{
+	position: fixed;
+	 top: 202px;
+     z-index: 10;
+}
+ div#bs-example-navbar-collapse-1{
+ 	   padding-left: 0px;
+
+ }
+ .red{
+ 	background-color: red;
+ 	height: 400px;
+ }
+ li.cambio {
+  background-color: white;
+}
+ li.nombre{
+  position: relative;
+  left: 55%;
+  margin-top: 6%;
+  font-size: 25px;
+ }
+.columnas{
+  background-image: url(../icon/palet.png);
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+img{
+  border-radius:50%;
+  width: 100%;
+}
+.flecha{
+  background-color: rgba(15, 124, 219, 0.78);
+  width: 10%;
+  border-radius: 50%;
+  padding: 3%;
+}
+.flecha img{
+    width: 106%;
+}
+.seguir span {
+  float: right;
+  margin-right: 143px;
+  color: rgb(68, 153, 227);
+  margin-bottom: 6%;
+}
+.flecha {
+  background-color: rgba(15, 124, 219, 0.78);
+  width: 9%;
+  border-radius: 50%;
+  padding: 3%;
+  position: absolute;
+}
+.texto-principal h3 {
+  margin-top: 39px;
+}
+h5{
+  font-size: 18px;
+}
+a:hover{
+color: red;
+}
+i{
+  list-style: none;
+}
+.clic{
+  color: red;
+}
+.iris img{
+  width: 12%;
+}
+.iris {
+text-align: center;
+}
+.clic h5{
+text-align: center;
+}
+h4{
+text-align: center;
+}
+
