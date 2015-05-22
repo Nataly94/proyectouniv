@@ -93,9 +93,15 @@ aside{
 .columnas{
   background-image: url(../icon/palet.png);
 }
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
+
+.panel {
+  .panel-head {
+    ul.row {
+      padding: 0;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
 }
 
 .joven img{
@@ -153,11 +159,19 @@ h4{
 }       
 
 .paneles {
-  background-color: gray;
-  height: 200px;
+  background-color: yellow;
+  /*height: 200px;*/
+  padding-top: 170px;
 }
    
-  
+.titulo{
+  h5 {
+  font-size: 14px;
+ }
+}  
+.panel-body {
+  padding: 0px 15px;
+}
       
        
      

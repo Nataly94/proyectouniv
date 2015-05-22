@@ -5544,14 +5544,14 @@ button.close {
   margin-top: 2%; }
 
 .left {
-  border-left: 1px solid #d4c9c9;
   margin-top: 2%; }
 
 .titulo {
   font-family: "PathwayGothicOne-Regular"; }
 
 .bg-muted {
-  background-color: white; }
+  background-color: white;
+  padding: 0px; }
 
 .list-unstyled {
   list-style: none; }
@@ -5641,7 +5641,8 @@ li.nombre {
 .columnas {
   background-image: url(../icon/palet.png); }
 
-.row {
+.panel .panel-head ul.row {
+  padding: 0;
   margin-left: 0px;
   margin-right: 0px; }
 
@@ -5699,7 +5700,14 @@ h4 {
   text-align: center; }
 
 .paneles {
-  background-color: gray;
-  height: 200px; }
+  background-color: yellow;
+  /*height: 200px;*/
+  padding-top: 170px; }
+
+.titulo h5 {
+  font-size: 14px; }
+
+.panel-body {
+  padding: 0px 15px; }
 
 /*# sourceMappingURL=main.css.map */
