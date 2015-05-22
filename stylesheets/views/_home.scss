@@ -1,20 +1,30 @@
+.header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  .header-thin {
+   width: 100%;
+  }
+  .header-tall {
+    background-color: gray;
+    ul {
+      margin: 0;
+      li {
+      text-align: center;
+      /*font-size: 10px;*/
+      &.inicio {
+        padding: 28px 0;
+        width: 79px;
+      }
+     }
+   }
+ }
+}
 
-@font-face {
-  font-family: PathwayGothicOne-Regular;
-  src: url(../fonts/PathwayGothicOne-Regular.ttf); 
+.sm-pic {
+  width: 60px;
 }
-.navbar-default {
-  background-color: white;
-  margin: 0px;
-  border-bottom-color: gray	;
-}
-.navbar-brand img{
-	width: 12%;
-}
-.navbar-brand{
-	height: 79px;
 
-}
 .fondo{
 	  background-color: rgba(128, 128, 128, 0);
 }
@@ -25,6 +35,7 @@
 .navbar {
   position: fixed;
   width: 100%;
+  min-height: 116px;
 }
 .background{
 	background-image: url(../icon/palet.png);
@@ -32,14 +43,10 @@
 }
 .glyphicon {
 	display: block;
-	font-size: 40px;
-	margin: 2px 30px;
+	font-size: 35px;
+	/*margin: 2px 30px;*/
 }
-hr {
-  border-color: gray;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 .men {
   padding-left: 0px;
   padding-right: 0px;
@@ -48,8 +55,7 @@ hr {
 a {
   color: gray;
   text-align: center;
-  font-family: "PathwayGothicOne-Regular";
-  font-size: 18px;
+  /*font-size: 18px;*/
   }
 
 .nav > li > a{
@@ -63,8 +69,9 @@ ul.nav.nav-pills.nav-stacked {
 }
 aside{
 	position: fixed;
-	 top: 202px;
-     z-index: 10;
+	top: 150px;
+  z-index: 10;
+  width: 79px;
 }
  div#bs-example-navbar-collapse-1{
  	   padding-left: 0px;
@@ -75,12 +82,12 @@ aside{
  	height: 400px;
  }
  li.cambio {
-  background-color: white;
+  background-color: transparent;
 }
  li.nombre{
-  position: relative;
-  left: 55%;
-  margin-top: 6%;
+  /*position: relative;*/
+  /*left: 55%;*/
+  /*margin-top: 6%;*/
   font-size: 25px;
  }
 .columnas{
@@ -91,9 +98,9 @@ aside{
   margin-right: 0px;
 }
 
-img{
+.joven img{
   border-radius:50%;
-  width: 100%;
+  width: 70%;
 }
 .flecha{
   background-color: rgba(15, 124, 219, 0.78);
@@ -136,12 +143,22 @@ i{
   width: 12%;
 }
 .iris {
-text-align: center;
+  text-align: center;
 }
 .clic h5{
-text-align: center;
+  text-align: center;
 }
 h4{
-text-align: center;
-}
+  text-align: center;
+}       
 
+.paneles {
+  background-color: gray;
+  height: 200px;
+}
+   
+  
+      
+       
+     
+      
