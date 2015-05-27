@@ -5673,10 +5673,11 @@ li.nombre {
   position: absolute; }
 
 .texto-principal h3 {
-  margin-top: 39px; }
+  margin-top: 18px; }
 
 h5 {
-  font-size: 18px; }
+  font-size: 18px;
+  text-align: center; }
 
 a:hover {
   color: red; }
@@ -5709,5 +5710,11 @@ h4 {
 
 .panel-body {
   padding: 0px 15px; }
+
+.margin {
+  margin: 0% 0% 0% 0%; }
+
+.gray {
+  background-color: #a4a0a0; }
 
 /*# sourceMappingURL=main.css.map */

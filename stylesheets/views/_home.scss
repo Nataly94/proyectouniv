@@ -108,15 +108,18 @@ aside{
   border-radius:50%;
   width: 70%;
 }
+
 .flecha{
   background-color: rgba(15, 124, 219, 0.78);
   width: 10%;
   border-radius: 50%;
   padding: 3%;
 }
+
 .flecha img{
     width: 106%;
 }
+
 .seguir span {
   float: right;
   margin-right: 143px;
@@ -131,10 +134,11 @@ aside{
   position: absolute;
 }
 .texto-principal h3 {
-  margin-top: 39px;
+  margin-top: 18px;
 }
 h5{
   font-size: 18px;
+  text-align: center;
 }
 a:hover{
 color: red;
@@ -171,6 +175,13 @@ h4{
 }  
 .panel-body {
   padding: 0px 15px;
+}
+.margin {
+  margin: 0% 0% 0% 0%;
+}
+
+.gray {
+  background-color: rgb(164, 160, 160);
 }
       
        
